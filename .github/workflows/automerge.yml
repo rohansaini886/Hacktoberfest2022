@@ -1,0 +1,29 @@
+name: automerge pull requests
+
+on:
+  pull_request:
+    types: [labeled]
+
+jobs:
+
+  automerge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/github-script@v3
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const { data: pullRequest } = await github.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+            });
+            const label = pullRequest.labels.find(label => label.name === 'hacktoberfest-accepted');
+            if (label) {
+              await github.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+              });
+            }
