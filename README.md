@@ -35,7 +35,7 @@ Check out `good-first-issues` for contributing [here](https://github.com/MrKrish
 * [Website](rohansaini.live)
 * [Email](mailto:rohansaini886@gmail.com)
 
-<h4> See also the list of <a href="https://github.com/rohansaini886/Hacktoberfest2022/graphs/contributors">contributors</a> who participated in this project. </h4>
+
 
 ### Contributing
 <h4> See also the list of <a href="https://github.com/rohansaini886/Hacktoberfest2022/graphs/contributors">contributors</a> who participated in this project. </h4>
