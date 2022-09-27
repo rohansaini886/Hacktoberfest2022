@@ -38,8 +38,8 @@ Check out `good-first-issues` for contributing [here](https://github.com/MrKrish
 <h4> See also the list of <a href="https://github.com/rohansaini886/Hacktoberfest2022/graphs/contributors">contributors</a> who participated in this project. </h4>
 
 ### Contributing
-<h4> See also the list of <a href="https://github.com/MrKrishnaAgarwal/Hacktoberfest2022/graphs/contributors">contributors</a> who participated in this project. </h4>
-Please read [CONTRIBUTING.md](/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](/CODE_OF_CONDUCT.md) for details on our code of conduct, and the process for submitting pull requests to us.
+<h4> See also the list of <a href="https://github.com/rohansaini886/Hacktoberfest2022/graphs/contributors">contributors</a> who participated in this project. </h4>
+Please read <a href="https://github.com/rohansaini886/Hacktoberfest2022/blob/master/CONTRIBUTING.md"> CONTRIBUTION.md </a> and <a href="https://github.com/rohansaini886/Hacktoberfest2022/blob/master/CODE_OF_CONDUCT.md"> CODE_OF_CONDUCT.md </a> for details on our code of conduct, and the process for submitting pull requests to us.
 
 ### Rules
 
