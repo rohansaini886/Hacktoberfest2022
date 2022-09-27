@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src= "Assets/Hfest-Logo-2-Color-Manga.png" width= "400"/>
+<img src= "[Assets/Hfest-Logo-2-Color-Manga.png](https://github.com/MrKrishnaAgarwal/Hacktoberfest2022/raw/main/Assets/Hfest-Logo-2-Color-Manga.png)" width= "400"/>
 
 <br> <br>
 
