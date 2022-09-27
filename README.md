@@ -20,7 +20,7 @@
 
 If you want to practice to make a pull request, follow the [CONTRIBUTING.md](/CONTRIBUTING.md)
   
-Check out `good-first-issues` for contributing [here](https://github.com/MrKrishnaAgarwal/Hacktoberfest2022/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+Check out `good-first-issues` for contributing [here](https://github.com/rohansaini886/Hacktoberfest2022/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 
 </div>
 
