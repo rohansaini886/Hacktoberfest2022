@@ -87,7 +87,7 @@ If you like this project, please consider supporting it by giving it a ⭐️. I
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
- **If your name is missing from the contributors list, please create an issue [here](https://github.com/rohansaini886/Hacktoberfest2022/issues/new?assignees=rohansaini886&labels=contributor&template=contributor.yml&title=Add+%5Bname%5D+as+a+contributor) and I'll make sure to add you only if you have contributed to this project.**
+ **If your name is missing from the contributors list, please [Email](mailto:rohansaini886@gmail.com) me with your Hacktoberfest-accepted lable screenshot of PR and I'll make sure to add you only if you have contributed to this project.**
 
 ## License
 
