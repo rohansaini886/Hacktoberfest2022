@@ -7,8 +7,7 @@
 <img src= "https://github.com/MrKrishnaAgarwal/Hacktoberfest2022/raw/main/Assets/Hfest-Logo-2-Color-Manga.png" width= "400"/>
 
 <br> <br>
-
-[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/rohansaini886/Hacktoberfest2022)
+<a href="https://github.com/rohansaini886/hacktoberfest2022/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rohansaini886/hacktoberfest2022?color=2b9348"></a>
 <img src="https://img.shields.io/badge/HacktoberFest-2022-blueviolet" alt="Hacktober Badge"/>
 <img src="https://img.shields.io/static/v1?label=%E2%AD%90&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 <a href="https://github.com/rohansaini886" ><img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=github" alt="Contributions" /></a>
