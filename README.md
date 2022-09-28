@@ -28,12 +28,22 @@ Check out `good-first-issues` for contributing [here](https://github.com/rohansa
 
 
 
-### Author
-
-* **Rohan Saini**
-* [GitHub](https://github.com/rohansaini886)
-* [Website](rohansaini.live)
-* [Email](mailto:rohansaini886@gmail.com)
+### Connect with Author <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="80px" height = "50px">
+<a href="https://www.linkedin.com/in/rohan-saini-22b461201/">
+<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height = 50 width = 50
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+</a>
+<a href="https://github.com/rohansaini886" class="pics">
+<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height = 50 width = 50
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+</a>
+<a href="http://rohansaini.live" class="pics">
+<img src="https://i.pinimg.com/originals/00/50/71/005071cbf1fdd17673607ecd7b7e88f6.png" height = 50 width = 50
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+</a>
 
 
 
