@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src= "https://github.com/rohansaini886/Hacktoberfest2022/blob/master/.github/images/Hfest-Logo-2-Color-Manga.png" width= "400"/>
+<img src= "https://github.com/rohansaini886/Hacktoberfest2022/blob/master/.github/images/Email%20Banners-Dark.png" width= "1200"/>
 
 <br> <br>
 <a href="https://github.com/rohansaini886/hacktoberfest2022/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rohansaini886/hacktoberfest2022?color=2b9348"></a>
