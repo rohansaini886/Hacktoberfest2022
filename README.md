@@ -86,7 +86,7 @@ If you like this project, please consider supporting it by giving it a ⭐️. I
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/rohansaini886"><img src="https://avatars.githubusercontent.com/u/83878702?s=80&v=4" width="100px;" alt=""/><br /><sub><b>Rohan Saini</b></sub></a><br /><a href="#maintenance-Rohan Saini" title="Maintenance">🚧</a> <a href="https://github.com/rohansaini886/Hacktoberfest2022/commits?author=rohansaini886" title="Code">💻</a> <a href="#content-rohansaini886" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/rohansaini886"><img src="https://avatars.githubusercontent.com/u/83878702?s=80&v=4" width="100px;" alt=""/><br /><sub><b>Rohan Saini</b></sub></a><br /><a href="#maintenance-Rohan Saini" title="Maintenance"> 🚧</a> <a href="https://github.com/rohansaini886/Hacktoberfest2022/commits?author=rohansaini886" title="Code">💻</a> <a href="#content-rohansaini886" title="Content">🖋</a></td>
  
   </tbody>
 </table>
