@@ -27,6 +27,10 @@ let capNewalpha = "";
 eBtn.addEventListener("click", (e) => {
     e.preventDefault()
     const text = e.target.parentElement.querySelector("input").value
+    if (!isNaN(text)) {
+        alert("Numbers not acceptable!")
+        return
+    }
     let ans = encode(text)
     e.target.parentElement.nextElementSibling.nextElementSibling.value = ans
 
@@ -36,6 +40,10 @@ eBtn.addEventListener("click", (e) => {
 dBtn.addEventListener("click", (e) => {
     e.preventDefault()
     const text = e.target.parentElement.querySelector("input").value
+    if (!isNaN(text)) {
+        alert("Numbers not acceptable!")
+        return
+    }
     let ans = decode(text)
     e.target.parentElement.nextElementSibling.nextElementSibling.value = ans
 })
@@ -56,14 +64,14 @@ function encode(message) {
     shift();
     let result = "";
     for (let i = 0; i < message.length; i++) {
-        if(message[i] === ' '){
+        if (message[i] === ' ') {
             result += ' ';
         }
         else if (message[i] === message[i].toLowerCase()) {
             let index = alphabet.indexOf(message[i]);
             result += newalpha[index];
         }
-        else if(message[i] === message[i].toUpperCase()){
+        else if (message[i] === message[i].toUpperCase()) {
             let index2 = capAlpha.indexOf(message[i]);
             result += capNewalpha[index2];
         }
@@ -77,14 +85,14 @@ function decode(message2) {
     shift();
     let result = "";
     for (let i = 0; i < message2.length; i++) {
-        if(message2[i] === ' '){
+        if (message2[i] === ' ') {
             result += ' ';
         }
         else if (message2[i] === message2[i].toLowerCase()) {
             let index = newalpha.indexOf(message2[i]);
             result += alphabet[index];
         }
-        else if(message2[i] === message2[i].toUpperCase()){
+        else if (message2[i] === message2[i].toUpperCase()) {
             let index = capNewalpha.indexOf(message2[i]);
             result += capAlpha[index];
         }
