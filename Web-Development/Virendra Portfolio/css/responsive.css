@@ -1,0 +1,150 @@
+/******************************************
+    Version: 1.0
+/****************************************** */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+	#mainNav {
+		background-color: #333333;
+	}
+	.navbar-dark .navbar-brand{
+		width: 55%;
+	}
+	.navbar-dark .navbar-nav .nav-link::after{
+		display: none;
+	}
+	.navbar-dark .navbar-toggler{
+		color: rgba(255,255,255);
+		border-color: rgba(255,255,255);
+	}
+	.heading h1{
+		font-size: 28px;
+	}
+	.heading p{
+		font-size: 14px;
+	}
+	.cd-headline.clip span{
+		font-size: 20px;
+	}
+	.section-title h3{
+		font-size: 28px;
+	}
+	.section-title p{
+		font-size: 14px;
+	}
+	#clouds{
+		margin-top: -35%;
+	}
+	.message-box{
+		margin-bottom: 30px;
+	}
+	.filter-button-group button{
+		padding: 12px 27px;
+	}
+	.filter-button-group{
+		text-align: center !important;
+	}
+	.post-box{
+		margin-bottom: 30px;
+	}
+	.footer-distributed .footer-left{
+		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	#mainNav {
+		background-color: #333333;
+	}
+	.navbar-dark .navbar-brand{
+		width: 55%;
+	}
+	.navbar-dark .navbar-nav .nav-link::after{
+		display: none;
+	}
+	.navbar-dark .navbar-toggler{
+		color: rgba(255,255,255);
+		border-color: rgba(255,255,255);
+	}
+	.heading h1{
+		font-size: 28px;
+	}
+	.heading p{
+		font-size: 14px;
+	}
+	.cd-headline.clip span{
+		font-size: 20px;
+	}
+	.section-title h3{
+		font-size: 28px;
+	}
+	.section-title p{
+		font-size: 14px;
+	}
+	#clouds{
+		margin-top: -35%;
+	}
+	.message-box{
+		margin-bottom: 30px;
+	}
+	.filter-button-group button{
+		padding: 12px 27px;
+	}
+	.filter-button-group{
+		text-align: center !important;
+	}
+	.post-box{
+		margin-bottom: 30px;
+	}
+	.footer-distributed .footer-left{
+		text-align: center;
+	}
+}
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+	#mainNav {
+		background-color: #333333;
+	}
+	.navbar-dark .navbar-brand{
+		width: 55%;
+	}
+	.navbar-dark .navbar-nav .nav-link::after{
+		display: none;
+	}
+	.navbar-dark .navbar-toggler{
+		color: rgba(255,255,255);
+		border-color: rgba(255,255,255);
+	}
+	.heading h1{
+		font-size: 28px;
+	}
+	.heading p{
+		font-size: 14px;
+	}
+	.cd-headline.clip span{
+		font-size: 20px;
+	}
+	.section-title h3{
+		font-size: 28px;
+	}
+	.section-title p{
+		font-size: 14px;
+	}
+	#clouds{
+		margin-top: -35%;
+	}
+	.message-box{
+		margin-bottom: 30px;
+	}
+	.filter-button-group button{
+		padding: 12px 27px;
+	}
+	.filter-button-group{
+		text-align: center !important;
+	}
+	.post-box{
+		margin-bottom: 30px;
+	}
+	.footer-distributed .footer-left{
+		text-align: center;
+	}
+	
+}
