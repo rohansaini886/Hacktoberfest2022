@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video gallery</title>
+    <link rel="stylesheet" href="css/vdos.css">
+</head>
+
+<title>Videos</title>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/location.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>VIDEOS GALLERY</h1>
+        <div class="row">
+            <div class="col">
+                <div class="feature-img">
+                    <img src="media/pic1.jpg" width="100%">
+                    <img src="media/play.png" class="play-btn" onclick= "playVideo('vdeos/vid1.mp4')">
+                </div>
+            </div>
+            <div class="col">
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="media/pic2.jpg">
+                        <img src="media/play.png" class="play-btn" onclick= "playVideo('vdeos/vid2.mp4')">
+                    </div>
+                    <p>Added multiple videos or<br>to make a video gallery</p>
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="media/pic3.jpg">
+                        <img src="media/play.png" class="play-btn" onclick= "playVideo('vdeos/vid3.mp4')">
+                    </div>
+                    <p>Added multiple videos or<br>to make a video gallery</p>
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="media/pic4.jpg">
+                        <img src="media/play.png" class="play-btn" onclick= "playVideo('vdeos/vid4.mp4')">
+                    </div>
+                    <p>Added multiple videos or<br>to make a video gallery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class= "video-player" id= "videoPlayer">
+        <video width="100%" controls autoplay id= "myVideo">
+            <source src="vdeos/vid1.mp4" type= "video/mp4">
+        </video>
+        <img src= "media/close.png" class= "close-btn" onclick= "stopVideo()"> 
+    </div>
+
+
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+        
+        function stopVideo(){
+            videoPlayer.style.display=  "none";
+        }
+        function playVideo(file){
+            myVideo.src= file;
+            videoPlayer.style.display= "block";
+        }
+
+    </script>
+   
+</body>
+</html>
