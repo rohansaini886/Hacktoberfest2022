@@ -1,0 +1,22 @@
+Linked list is a collection of homogeneous elements called as nodes which are connected by links or pointers.
+
+Single linked list :-
+In single linked list, each node has only one link which points to the next node of the list.
+Head pointer points to the first node of the list which is used to keep track of the list.
+List can be traversed only in one direction.
+Best case( insertion & deletion ) :- O(1)  --> at first
+Worst case( insertion & deletion ) :- O(n)  --> at last
+
+Doubly linked list :-
+In doubly linked list, pointers exist between the nodes in both directions.
+List can be traversed in both directions.
+Head and Tail pointers are maintained to keep track of the list.
+Best Case(Insertion & Deletion) :- O(1) --> At first & last
+Worst Case(Insertion & Deletion) :- O(n) --> At middle
+
+Circular linked list :-
+In Circular linked list, last node next pointer points to the first node of the list.
+List can be traversed circularly in a single direction.
+Head pointer is maintained to keep track of the list.
+Best case( insertion & deletion ) :- O(1)  --> at first
+Worst case( insertion & deletion ) :- O(n)  --> at last

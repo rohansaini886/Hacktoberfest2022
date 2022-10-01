@@ -1,0 +1,17 @@
+  Stacks --->
+Stack follows LIFO principle.
+Stack is a container which allows PUSH and POP operations.
+PUSH --> Placing an element on the top of the stack
+POP --> Removing an element from the top of the stack.
+
+Time complexity(Push & Pop) :- O(1) in both arrays and linked lists.
+
+Queues --->
+Queue follows FIFO principle.
+Queue is a container which allows enqueue and dequeue operations.
+Enqueue --> Placing an element in a queue at rear end.
+Dequeue  --> Removing an element from a queue at front end.
+
+Time complexity(Enqueue & Dequeue) :- O(1) in both arrays and linked lists.
+
+Circular queue -->
