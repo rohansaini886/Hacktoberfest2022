@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.title{
+    font-family: sans-serif;
+    color: #0281B1;
+    text-align: center;
+}
+h1{
+    margin-top: 5rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.tabContainer{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.tabContainer .buttonContainer button{
+    width: 25%;
+    height: 100%;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #eee;
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: #d7d4d4;
+}
+.tabContainer .tabPanel{
+    height: 85%;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: none;
+}
+.tabPanel{
+    padding: 0 1rem;
+}
+
+.decryption input,.encryption input{
+    padding: 0.5rem;
+    width: 75%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.decryption button, .encryption button{
+    float: right;
+    padding: 0.5rem 2rem;
+    background-color: #0281B1;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    letter-spacing: 1px;
+}
+.decryption button:hover ,.encryption button:hover{
+    background-color: #006386;
+}
+
+.message {
+    color: gray;
+    font-size: 1rem;
+    margin-top: 1rem;
+}

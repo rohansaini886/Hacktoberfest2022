@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="caesar-cipher.css" />
+  </head>
+
+  <body>
+    <h1 class="heading">CAESAR CIPHER</h1>
+
+    <div class="container">
+      <div class="tabContainer">
+        <div class="buttonContainer">
+          <button onclick="showPanel(0,'#0281B1')">Encryption</button>
+          <button onclick="showPanel(1,'#0281B1')">Decryption</button>
+        </div>
+
+        <div class="tabPanel">
+          <div class="encryption">
+            <form>
+              <p style="margin-top: 2rem;">Enter Your Message To Encrypt</p>
+              <input type="text" placeholder="Enter the text" value="" />
+              <button type="submit" class="e-btn">Submit</button>
+            </form>
+            <p>Your Encrypted Message</p>
+            <input type="text" placeholder="Enter the text" value="" />
+          </div>
+        </div>
+
+        <div class="tabPanel">
+          <div class="decryption">
+            <form>
+              <p style="margin-top: 2rem;">Enter Your Message To Decrypt</p>
+              <input type="text" placeholder="Enter the text" value="" />
+              <button type="submit" class="d-btn">Submit</button>
+            </form>
+            <p>Your Decrypted Message</p>
+            <input type="text" placeholder="Enter the text" value="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="caesar-cipher.js"></script>
+  </body>
+</html>
