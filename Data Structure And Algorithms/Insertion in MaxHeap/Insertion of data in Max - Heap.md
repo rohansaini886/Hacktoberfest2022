@@ -16,5 +16,5 @@ Enter the data given by the user in a max-heap form.
 
 ## Code 💻
 
-The solution code for the problem is given [here]()
+The solution code for the problem is given [here](https://github.com/kartikjain2001/Hacktoberfest2022/blob/master/Data%20Structure%20And%20Algorithms/Insertion%20in%20MaxHeap/Insertion%20of%20data%20in%20Max%20-%20Heap.c)
     
