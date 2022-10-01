@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <title>Contact Page</title>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/location.html">Locations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="aboutus.html">About us</a></li>
+          <li><a href="videos.html">Videos</a></li>
+            </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Be Feel Free to Contact Us....</p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="bg.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="contact.php" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="india">India</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+
+            <button style="height:50px; width:200px; font-size: medium; ">
+              <a href="thank.html">Submit Now </a>
+            </button>
+            
+            
+            <!-- <input type="submit" value="Submit Now"> -->
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
