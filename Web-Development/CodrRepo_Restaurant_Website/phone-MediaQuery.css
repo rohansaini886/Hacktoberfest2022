@@ -1,0 +1,68 @@
+/* NAVBAR SECTION */
+header{
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+}
+
+header .navbar-buttons p{
+    background-color: black;
+    color: white;
+}
+
+
+/* HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 18rem;
+}
+
+#home h2{
+    margin-bottom: 3rem;
+    margin-top: 39rem;
+}
+
+/* SERVICES SECTION */
+#services .services-content{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 80%;
+}
+
+
+/* CUSTOMER SECTION */
+#customer .customer-reviews{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* CONTACT SECTION */
+
+#contact-us::before{
+    content: '';
+    background-image: url(/Asserts/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 54rem;
+    width: 100vw;
+    z-index: -1;
+    margin-top: 21rem;
+}
+#contact-us .contact-data{
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER SECTION */
+footer p{
+    text-align: center;
+    height: 8rem;
+}
