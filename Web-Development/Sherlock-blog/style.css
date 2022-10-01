@@ -1,0 +1,233 @@
+#main-header {
+  text-align: center;
+
+  padding: 7px;
+  background-color: rgb(22, 20, 14);
+  color: white;
+}
+#main-header h3 {
+  color: rgb(221, 25, 25);
+  font-style: italic;
+}
+
+#navbar {
+  padding-left: 0px;
+  padding-top: 10px;
+}
+#navbar ul {
+  list-style: none;
+}
+#navbar li {
+  font-size: 16px;
+  display: inline;
+}
+.post1 a,
+.post2 a,
+.post3 a,
+.post4 a {
+  color: rgb(92, 181, 255);
+  text-decoration: none;
+  padding-right: 27px;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding-right: 27px;
+}
+.icons {
+  padding-right: 10px;
+}
+.icon {
+  padding-left: 10px;
+}
+
+#search {
+  padding-left: 455px;
+}
+
+::selection {
+  color: white;
+  background: rgb(221, 25, 25);
+}
+hr {
+  border: 0.2px solid rgb(221, 25, 25);
+}
+#x {
+  border: 0.1px solid rgb(107, 4, 4);
+}
+body {
+  box-sizing: border-box;
+  background-color: rgb(22, 20, 14);
+  font-family: "Montserrat";
+  font-size: 15px;
+  margin: auto;
+  line-height: 1.6em;
+}
+.image {
+  background-image: url(./images/sherlock.jpg);
+  min-height: 768px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 27px;
+}
+.container {
+  padding: 45px 20px;
+
+  overflow: hidden;
+}
+.post1,
+.post3 {
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 25px;
+  padding-bottom: 48px;
+  box-sizing: border-box;
+}
+
+.post2,
+.post4 {
+  float: right;
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.post1 {
+  color: white;
+  background-image: url(./images/sherlock63.jpg);
+  min-height: 768/2px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.post2 {
+  color: white;
+  background-image: url(./images/sherlock8.jfif);
+  min-height: 768/2px;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 20px;
+}
+.post3 {
+  color: white;
+  background-image: url(./images/sherlock91.jpg);
+  min-height: 768/2px;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-bottom: 70px;
+  border-radius: 20px;
+}
+.post4 {
+  color: white;
+  background-image: url(./images/sherlock11.png);
+  min-height: 768/2px;
+  background-repeat: no-repeat;
+  background-position: center right;
+  border-radius: 20px;
+}
+
+.post1 a:hover,
+.post2 a:hover,
+.post3 a:hover,
+.post4 a:hover,
+#navbar a:hover {
+  color: rgb(221, 25, 25);
+}
+.form {
+  color: rgb(0, 255, 221);
+  line-height: 2.2em;
+}
+.form h2 {
+  text-align: left;
+  margin: 50px 0px;
+}
+
+.form input {
+  background-color: rgb(22, 20, 14);
+  color: white;
+  border: 0.5px solid rgb(221, 25, 25);
+  border-radius: 12px;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 300px;
+}
+.form ::placeholder {
+  color: gray;
+}
+textarea {
+  background-color: rgb(22, 20, 14);
+  color: white;
+  border: 0.5px solid rgb(221, 25, 25);
+  border-radius: 12px;
+  font-size: 16px;
+  padding-right: 350px;
+}
+#a1 {
+  margin-left: 37px;
+}
+#a2 {
+  margin-left: 18px;
+}
+#a3 {
+  margin-left: 35px;
+}
+#a4 {
+  margin-left: 10px;
+}
+#bt2 {
+  background-color: rgb(221, 25, 25);
+  border: none;
+  color: white;
+  font-family: "Montserrat";
+  text-align: center;
+
+  padding: 12px 15px;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 10px;
+}
+#bt1 {
+  margin-right: 40px;
+  background-color: rgb(0, 255, 221);
+  border: none;
+  color: black;
+  font-family: "Montserrat";
+  text-align: center;
+
+  padding: 12px 15px;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 10px;
+}
+aside h2 {
+  color: rgb(92, 181, 255);
+  padding: 20px;
+  padding-top: 0px;
+}
+aside ul {
+  list-style: none;
+}
+aside li {
+  padding-bottom: 10px;
+  display: inline;
+  padding-right: 20px;
+  margin-bottom: 60px;
+}
+aside a {
+  color: white;
+  text-decoration: none;
+}
+aside a:hover {
+  color: rgb(92, 181, 255);
+}
+#main-footer {
+  text-align: center;
+  padding-bottom: 10px;
+}
+#main-footer a {
+  color: white;
+  text-decoration: none;
+}
+#main-footer a:hover {
+  color: rgb(221, 25, 25);
+}
