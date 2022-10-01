@@ -1,0 +1,380 @@
+:root {
+  --blue: hsl(246, 80%, 60%);
+  --lightRedWork: hsl(15, 100%, 70%);
+  --softBluePlay: hsl(195, 74%, 62%);
+  --lightRedStudy: hsl(348, 100%, 68%);
+  --limeGreenExer: hsl(145, 58%, 55%);
+  --violetSocial: hsl(264, 64%, 52%);
+  --softOrangeselfCare: hsl(43, 84%, 65%);
+  --veryDarkBlue: hsl(226, 41%, 10%);
+  --darkBlue: hsl(236, 45%, 20%);
+  --desaturatedBlue: hsl(235, 45%, 61%);
+  --paleBlue: hsl(236, 100%, 87%);
+  --fontSizeTitle: 1.06rem;
+  --transition-duration: 700ms;
+  --delay: 100ms;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: var(--veryDarkBlue);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--paleBlue);
+}
+
+a:focus,
+a:focus-visible,
+a:hover,
+.active {
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.5rem;
+  gap: 1rem;
+  margin: 4rem auto 2.65rem;
+}
+
+.profile {
+  position: relative;
+  background-color: var(--darkBlue);
+  border-radius: 1rem;
+  opacity: 1;
+  animation: rightSlide 700ms 1 forwards;
+}
+
+.profile__report {
+  background-color: var(--blue);
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.profile__report img {
+  width: 5rem;
+  height: 5rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.profile__report h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+.profile__report h1 small {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--paleBlue);
+}
+
+.profile__selection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.profile__selection li a {
+}
+
+.card {
+  position: relative;
+  background-color: var(--darkBlue);
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 300ms;
+  /* transform: translateX(400%); */
+}
+
+.card:hover {
+  background: #3d448f;
+}
+
+/* .card:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.card.show {
+  transform: translateX(0);
+} */
+
+.card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -3rem;
+  left: 0;
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.card__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.card__title {
+  font-size: var(--fontSizeTitle);
+}
+
+.card__menu:hover svg path {
+  fill: #fff;
+}
+
+.card__current-time {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.card__previous-time {
+  font-weight: 400;
+  color: var(--paleBlue);
+}
+
+.card--work::before {
+  background: var(--lightRedWork) url("./images/icon-work.svg") no-repeat;
+  background-position: right 9% top -8%;
+}
+
+.card--play::before {
+  background: var(--softBluePlay) url("./images/icon-play.svg") no-repeat;
+  background-position: right 9% top -8%;
+}
+
+.card--study::before {
+  background: var(--lightRedStudy) url("./images/icon-study.svg") no-repeat;
+  background-position: right 9% top 0;
+}
+
+.card--exercise::before {
+  background: var(--limeGreenExer) url("./images/icon-exercise.svg") no-repeat;
+  background-position: right 9% top 0;
+}
+
+.card--social::before {
+  background: var(--violetSocial) url("./images/icon-social.svg") no-repeat;
+  background-position: right 9% top 0;
+}
+
+.card--selfCare::before {
+  background: var(--softOrangeselfCare) url("./images/icon-self-care.svg")
+    no-repeat;
+  background-position: right 9% top -8%;
+}
+
+.card--work {
+  animation: rightSlide 700ms calc(var(--i) * var(--delay)) backwards;
+}
+
+.card--play {
+  animation: leftSlide 700ms calc(var(--i) * var(--delay)) backwards;
+}
+
+.card--study {
+  animation: rightSlide 700ms calc(var(--i) * var(--delay)) backwards;
+}
+
+.card--exercise {
+  animation: leftSlide 700ms calc(var(--i) * var(--delay)) backwards;
+}
+
+.card--social {
+  animation: rightSlide 700ms calc(var(--i) * var(--delay)) backwards;
+}
+
+.card--selfCare {
+  animation: leftSlide 700ms calc(var(--i) * var(--delay)) backwards;
+}
+
+.attribution {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@keyframes rightSlide {
+  0% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes topSlide {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: none;
+  }
+}
+@keyframes leftSlide {
+  0% {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: none;
+  }
+}
+@keyframes bottomSlide {
+  0% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+@media (min-width: 42.35rem) {
+  main {
+    display: grid;
+    grid-area: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "profile work play"
+      "profile study exercise"
+      "profile social self-care";
+    /* grid-gap: 1rem; */
+    width: 90%;
+    padding: 0;
+  }
+
+  .profile {
+    width: 15rem;
+    grid-area: profile;
+    align-self: center;
+  }
+
+  .profile__report {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 5rem;
+  }
+
+  .profile__report img {
+    margin-bottom: 2rem;
+  }
+
+  .profile__report h1 {
+    font-size: 2.5rem;
+    margin-left: 0;
+    width: 60%;
+  }
+
+  .profile__selection {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+
+  .profile__selection li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 63.4rem) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "profile work play study"
+      "profile exercise social self-care";
+    width: 90%;
+  }
+
+  .card__current-time {
+    font-size: 3rem;
+  }
+
+  .card--work {
+    animation: topSlide 700ms 1 backwards 700ms;
+  }
+
+  .card--play {
+    animation: topSlide 700ms 1 backwards 600ms;
+  }
+
+  .card--study {
+    animation: topSlide 700ms 1 backwards 700ms;
+  }
+
+  .card--exercise {
+    animation: bottomSlide 700ms 1 backwards 800ms;
+  }
+
+  .card--social {
+    animation: bottomSlide 700ms 1 backwards 900ms;
+  }
+
+  .card--selfCare {
+    animation: bottomSlide 700ms 1 backwards 1000ms;
+  }
+}
