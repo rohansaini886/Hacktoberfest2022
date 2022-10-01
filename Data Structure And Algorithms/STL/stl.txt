@@ -1,0 +1,101 @@
+---------------------- Array ------------------------
+array<int,5>a;
+a.front();
+a.back();                 
+a.size();
+
+---------------------- Vector ------------------------
+vector<int>v;
+vector<vector<int>>v;
+v.push_back();
+v.pop_back();
+v.front();                
+v.back();
+v.begin();
+v.end();
+v.insert();
+v.erase();
+v.size();
+v.capacity();
+
+---------------------- List --------------------------
+list<int>l;
+l.push_back();    
+l.push_front();
+l.pop_back();
+l.pop_front();
+l.begin();
+l.end();
+advance();
+l.erase();
+l.insert();
+l.size();
+
+--------------------- Stack ---------------------------
+stack<int>s;
+s.push();
+s.pop();   
+s.top();
+s.size();
+
+--------------------- Queue ---------------------------
+queue<int>q;
+q.push();
+q.pop();          
+q.front();
+q.back();
+q.size();
+
+--------------------- Deque ---------------------------
+deque<int>d;
+d.push_back();
+d.push_front();
+d.pop_back();                 
+d.pop_front();
+d.front();
+d.back();
+d.begin();
+d.end();
+d.insert();
+d.erase();
+d.size();
+
+---------------- Priority queue ------------------------
+priority_queue<int>mx;
+priority_queue<int,vector<int>,greater<int>>mn;
+mx.push();
+mx.pop();
+mx.top();
+mn.push();                  
+mn.pop();
+mn.top();
+mx.size();
+mn.size();
+
+----------------------- Set -----------------------------
+set<int>s;
+unordered_set<int>s;
+s.insert();
+s.begin();
+s.end();
+s.erase();               
+s.find();
+s.size();
+
+------------------- Map ------------------------
+map<int,int>m;
+unordered_map<int,int>m;
+m[x]=y;
+m.insert({a,b});
+m.first;
+m.second; 
+m.begin();
+m.end();           
+m.find();
+m.erase();
+m.size();
+
+---------------------------------------------------
+reverse(x.begin(),x.end());
+sort(x.begin(),x.end());
+binary_search(arr.begin(),arr.end(),ele);

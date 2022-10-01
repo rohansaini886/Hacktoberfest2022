@@ -1,0 +1,36 @@
+Array is collection of fixed number of elements of same type stored in continuous memory locations.
+
+DMA :
+int *arr;
+arr=(int*)malloc(N*sizeof(int));
+arr=(int*)realloc(arr,(N+2)*sizeof(int));
+
+int *arr;
+arr=(int*)calloc(N,sizeof(int));
+
+int *arr;
+arr = new int[10];
+delete[] arr;
+
+Operations of array :-
+                    Best case        Worst case
+    Traverse          O(n)              O(n)
+    Insertion         O(1)              O(n)
+    Deletion          O(1)              O(n)
+    Search            O(1)              O(n)
+    Updation          O(1)              O(n)
+
+2D-array is basically an array of array stored in continuous memory locations.
+Row major: Elements in 2D-array stored by row-by-row basis.
+Column major: Elements in 2D-array stored by column-by-column basis.
+
+Sparse matrix:
+Sparse matrix is used when most of the elements of matrix are 0's.
+Less storage and less computing time.
+
+Store non-zero elements using triplet.
+Triplet: (row,column,value)
+
+row ---------->
+col ---------->
+val ---------->
