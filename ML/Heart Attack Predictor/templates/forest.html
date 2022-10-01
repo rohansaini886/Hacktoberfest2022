@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Heart Attack Prediction</title>
+
+</head>
+
+<body>
+  <div class="big-container">
+    <div class="container">
+      <br><br>
+      <h1 class="header center">Cardiovascular disease predictor</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Predict the probability of Cardiovascular disease
+        <br>
+        </h5>
+      </div>
+
+              <div class="row">
+    <form action='/predict' method="POST" class="col s12">
+      <div class="main-div">
+        <div class="first">
+      <div class="row">
+        <div class="input-field col s4">
+            <label for="age"><b>Age in days</b></label>
+            <br>
+          <input   id="age" name='age'type="number" class="validate">
+        </div>
+        <div class="input-field col s4">
+
+          <label for="gender"><b>Gender</b></label>
+            <br>
+          <select name="gender" id="gender">
+          <option value=1>Female</option>
+          <option value=2>Male</option>
+
+          </select>
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="height"><b>Height(in cm)</b></label>
+            <br>
+          <input id="height" name="height" type="number" class="validate">
+
+        </div>
+        <div class="input-field col s4">
+          <label for="weight"><b>Weight(in kg)</b></label>
+          <br>
+        <input id="weight" name="weight" type="number" class="validate">
+
+      </div>
+      <div class="input-field col s4">
+        <label for="sbp"><b>Systolic blood pressure(in mm of Hg)</b></label>
+        <br>
+      <input id="sbp" name="sbp" type="number" class="validate">
+
+    </div>
+    <div class="input-field col s4">
+      <label for="dbp"><b>Diastolic blood pressure(in mm of Hg)</b></label>
+      <br>
+    <input id="dbp" name="dbp" type="number" class="validate">
+
+    </div>
+      </div>
+          <div class="second">
+    <div class="input-field col s4">
+      <label for="chl"><b>Choose a cholestrol level:</b></label>
+      <select name="chl" id="chl">
+        <option value=1>Low</option>
+        <option value=2>Normal</option>
+        <option value=3>High</option>
+        </select>
+    </div>
+    <div class="input-field col s4">
+      <label for="glu"><b>Choose a glucose level:</b></label>
+      <select name="glu" id="glu">
+        <option value=1>Low</option>
+        <option value=2>Normal</option>
+        <option value=3>High</option>
+        </select>
+      </div>
+      <div class="input-field col s4">
+        <label for=sm><b>Do you smoke?</b></label>
+        <select name="sm" id="sm">
+          <option value=0>No</option>
+          <option value=1>Yes</option>
+
+          </select>
+        </div>
+        <div class="input-field col s4">
+          <label for="alc"><b>Do you consume alcohol?</b></label>
+          <select name="alc" id="alc">
+            <option value=0>No</option>
+            <option value=1>yes</option>
+
+            </select>
+          </div>
+          <div class="input-field col s4">
+            <label for="act"><b>Are you physically active?</b></label>
+            <select name="act" id="act">
+              <option value=0>No</option>
+              <option value=1>Yes</option>
+
+              </select>
+            </div>
+            </div>
+      </div>
+        </div>
+      <div class="row center">
+
+          <button type="submit" class="btn">Predict Probability</button>
+      </div>
+
+    </form>
+      </div>
+
+      <br><h4 align="center"><b>{{pred}}</b></h4>
+        <br>
+
+    </div>
+  </div>
+
+  <style>
+    body{
+    box-sizing: border-box;
+    background-color:hsl(57, 67%, 89%);
+    background-image: url(https://i.ytimg.com/vi/wqCPa73ffeQ/maxresdefault.jpg);
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+label {
+    width: 400px;
+    height: 30px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    /*width: 400px;*/
+    margin: 10px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.02);
+    background-color: green;
+}
+
+button:active {
+    transform: scale(0.98);
+    background-color: green;
+}
+  </style>
+
+
+  <!--  Scripts
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src=".js/materialize.js"></script>
+  <script src="js/init.js"></script> -->
+
+  </body>
+</html>
