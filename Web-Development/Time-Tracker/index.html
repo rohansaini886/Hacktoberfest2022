@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="./script.js" defer></script>
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main>
+      <article class="profile">
+        <div class="profile__report">
+          <img src="./images/image-jeremy.png" alt="Jeremy profile pic" />
+          <h1><small>Report for</small>Jeremy Robson</h1>
+        </div>
+
+        <ul class="profile__selection">
+          <li>
+            <a href="#" class="period daily" data-timeframe="daily">Daily</a>
+          </li>
+          <li>
+            <a href="#" class="period weekly active" data-timeframe="weekly"
+              >Weekly</a
+            >
+          </li>
+          <li>
+            <a href="#" class="period monthly" data-timeframe="monthly"
+              >Monthly</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <article class="card card--work" tabindex="0" style="--i: 0">
+        <!-- <div class="banner">
+          <img src="./images/icon-work.svg" alt="orange bag" />
+        </div> -->
+        <div class="card__top">
+          <h2 class="card__title">Work</h2>
+          <a href="#" class="card__menu" aria-label="work menu">
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="card__current-time current-time"><span>32</span>hrs</p>
+        <p class="card__previous-time previous-time">
+          <span class="text">Last Week -</span>
+
+          <span class="data">36</span> hrs
+        </p>
+      </article>
+      <article class="card card--play" tabindex="0" style="--i: 1">
+        <div class="card__top">
+          <h2 class="card__title">Play</h2>
+          <a href="#" class="card__menu" aria-label="play menu">
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="card__current-time current-time"><span>10</span>hrs</p>
+        <p class="card__previous-time previous-time">
+          <span class="text">Last Week -</span>
+          <span class="data">8</span> hrs
+        </p>
+      </article>
+      <article class="card card--study" tabindex="0" style="--i: 2">
+        <div class="card__top">
+          <h2 class="card__title">Study</h2>
+          <a href="#" class="card__menu" aria-label="study menu">
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="card__current-time current-time"><span>4</span>hrs</p>
+        <p class="card__previous-time previous-time">
+          <span class="text">Last Week -</span>
+          <span class="data">7</span> hrs
+        </p>
+      </article>
+      <article class="card card--exercise" tabindex="0" style="--i: 3">
+        <div class="card__top">
+          <h2 class="card__title">Exercise</h2>
+          <a href="#" class="card__menu" aria-label="exercise menu">
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="card__current-time current-time"><span>4</span>hrs</p>
+        <p class="card__previous-time previous-time">
+          <span class="text">Last Week -</span>
+          <span class="data">5</span> hrs
+        </p>
+      </article>
+      <article class="card card--social" tabindex="0" style="--i: 4">
+        <div class="card__top">
+          <h2 class="card__title">Social</h2>
+          <a href="#" class="card__menu" aria-label="social menu">
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="card__current-time current-time"><span>5</span>hrs</p>
+        <p class="card__previous-time previous-time">
+          <span class="text">Last Week -</span>
+          <span class="data">10</span> hrs
+        </p>
+      </article>
+      <article class="card card--selfCare" tabindex="0" style="--i: 5">
+        <div class="card__top">
+          <h2 class="card__title">Self care</h2>
+          <a href="#" class="card__menu" aria-label="self-care menu">
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="card__current-time current-time"><span>2</span>hrs</p>
+        <p class="card__previous-time previous-time">
+          <span class="text">Last Week -</span>
+          <span class="data">2</span> hrs
+        </p>
+      </article>
+    </main>
+
+    <!-- <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Kareem</a>.
+      </div>
+    </footer> -->
+  </body>
+</html>
