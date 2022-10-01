@@ -1,0 +1,312 @@
+/* Resetting css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: finlandica;
+    scroll-behavior: smooth;
+}
+
+/* -------------------------------- UTILITY CLASSES ------------------ */
+.primary-heading{
+    font-size: 5rem;
+    /* text-align: center; */
+    color: #494949;
+}
+
+.secondary-heading{
+    font-size: 3rem;
+    color: #004f49;
+}
+
+.primary-paragraph{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #004f49;
+}
+
+.secondary-paragraph{
+    font-size: 2rem;
+}
+
+.center{
+    text-align: center;
+}
+
+/* -------------------------------  NAVBAR -------------------------------- */
+
+header{
+    display: flex;
+    /* border: 2px solid green; */
+    height: 5.8rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ededed9e;
+    position: sticky;
+    box-shadow: 1px 0px 25px -10px #848484;
+}
+
+/* ----- logo */
+.logo img{
+    height: 8rem;
+    /* border: 2px solid red; */
+    /* filter: invert(100%) */
+}
+
+/* ----- navbar menu */
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    /* border: 2px solid orange; */
+    margin: 0px 1.5rem;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    /* font-weight: 600; */
+    font-size: 2rem;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.navbar ul li:hover{
+    transform: scale(1.1);
+}
+
+.navbar ul li a:hover{
+    color: #26c1b6;
+}
+
+/* --------- navbar buttons */
+.navbar-buttons{
+    margin-right: 2rem;
+}
+.navbar-buttons p{
+    font-size: 2rem;
+    border: 4px solid black;
+    border-radius: 8px;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+.navbar-buttons p:hover{
+    color: #26c1b6;
+    background-color: black;
+}
+
+/* ---------------------------------- BACKGROUND IMAGE -------------------------- */
+#home::before{
+    content: '';
+    background-image: url('../Asserts/restaurant-project/background3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+/* ------------------------------------ HOME CONTENT ----------------------------------- */
+#home{
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 80vh;
+    /* text-align: center; */
+    padding: 0rem 7rem;
+    
+}
+#home h2{
+    color: #004f49;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+
+}
+#home input[type='button']{
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    background-color: #26c1b6;
+    border-radius: 41px;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: black;
+}
+#home input[type='button']:hover{
+    color: #26c1b6;
+}
+
+/* ---------------------------------------- SERVICES SECTION ----------------------------------- */
+#services{
+    margin: 7rem auto;
+    /* border: 2px solid red; */
+}
+#services .services-content{
+    display: flex;
+    /* border: 2px solid orange; */
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0rem 3rem;
+}
+#services .imp-services img{
+    height: 18.6rem;
+}
+#services .imp-services{
+    /* border: 2px solid red; */
+    margin: 1rem 0.7rem;
+    box-shadow: 2px 2px 14px -5px black;
+    border-radius: 20px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+#services .services-img{
+    /* border: 2px solid green; */
+    margin-bottom: 1rem;
+}
+
+#services .services-content .services-paragraph{
+    padding: 2rem 2rem;
+    color: #3a3a3a;
+}
+
+#services .imp-services:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 14px 1px black;
+    cursor: default;
+}
+
+#services .services-heading{
+    width: 27rem;
+    margin: auto;
+}
+
+/* ------------------------------------- CUSTOMER SECTION ---------------------- */
+#customer .customer-reviews{
+    display: flex;
+    margin: 2rem 4rem;
+}
+#customer .customer-reviews .reviews img{
+    height: 15rem;
+    border-radius: 360px;
+}
+
+#customer .customer-reviews .reviews{
+    padding: 4rem 6rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    border: 2px solid #a3a3a3;
+}
+
+.customer-name{
+    margin-bottom: 1rem;
+}
+
+/* ---------------------------------- CONTACT-US SECTION ------------------------ */
+#contact-us::before{
+    content: '';
+    background-image: url(../Asserts/restaurant-project/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 45rem;
+    width: 100vw;
+    z-index: -1;
+    margin-top: 11rem;
+}
+
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-us .contact-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    width: 90%;
+    /* margin: -3rem auto; */
+}
+#contact-us form{
+    border: 4px solid black;
+    text-align: center;
+    font-size: 2rem;
+    width: 48%;
+    border-radius: 1rem;
+}
+#contact-us label{
+    display: block;
+    font-size: 2rem;
+    /* font-weight: bold; */
+}
+
+#contact-us form input{
+    font-size: 1.7rem;
+    text-align: center;
+    width: 95%;
+    margin-bottom: 1rem;
+}
+
+#contact-us .textarea textarea{
+    width: 100%;
+    font-size: 1.7rem;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 1rem;
+}
+
+.contact-heading{
+    padding-top: 7rem;
+    margin: 4rem 0rem;
+}
+
+#contact-us input[type='submit']{
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    background-color: #26c1b6;
+    border-radius: 41px;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: black;
+    margin: 2rem 0rem;
+}
+#contact-us input[type='submit']:hover{
+    color: #26c1b6;
+}
+
+/* ---------------------------------- FOOTER SECTION --------------------------- */
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    margin-top: 3rem;
+}
